@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Harsha Vardhini S — Data Analyst</title>
+<meta name="description" content="Data Analyst building the layer between messy datasets and clear answers. Python, SQL, Power BI and business intelligence reporting." />
+<meta name="theme-color" content="#14110f" />
+<meta property="og:title" content="Harsha Vardhini S — Data Analyst" />
+<meta property="og:description" content="Python · SQL · Power BI · Business Intelligence" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/portrait.jpg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2314110f'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='15' fill='%23f4f2ed' text-anchor='middle'%3EHV%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <span class="loader__mark">HV</span>
+    <span class="loader__track"><span id="loaderFill"></span></span>
+  </div>
+</div>
+
+<header class="nav" id="nav">
+  <div class="shell nav__inner">
+    <a class="nav__brand" href="#top" aria-label="Harsha Vardhini S — home">
+      <span class="nav__monogram">HV</span>
+      <span class="nav__brandname">Harsha Vardhini</span>
+    </a>
+    <nav class="nav__links" aria-label="Sections">
+      <a href="#work" data-navlink="work">Work</a>
+      <a href="#stack" data-navlink="stack">Stack</a>
+      <a href="#experience" data-navlink="experience">Experience</a>
+      <a href="#credentials" data-navlink="credentials">Resume</a>
+      <a href="#contact" data-navlink="contact">Contact</a>
+    </nav>
+    <a class="nav__cta" href="#contact">
+      <span class="pulse" aria-hidden="true"></span>
+      Available for work
+    </a>
+    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav class="menu__links" aria-label="Mobile sections">
+    <a href="#work"><em>01</em>Work</a>
+    <a href="#stack"><em>02</em>Stack</a>
+    <a href="#experience"><em>03</em>Experience</a>
+    <a href="#credentials"><em>04</em>Resume</a>
+    <a href="#contact"><em>05</em>Contact</a>
+  </nav>
+  <div class="menu__foot">
+    <a href="mailto:harshabalan205@gmail.com">harshabalan205@gmail.com</a>
+    <a href="https://www.linkedin.com/in/harsha-vardhini-19373732a" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/Harshavardhini255" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="shell hero__grid">
+
+      <div class="hero__text">
+        <p class="hero__eyebrow">
+          <span class="slash">/</span> Portfolio — 2026
+        </p>
+
+        <h1 class="hero__name">
+          <span class="line"><span>Harsha</span></span>
+          <span class="line"><span>Vardhini</span></span>
+        </h1>
+
+        <p class="hero__role">
+          <span class="hero__rolesuffix">Data</span>
+          <span class="hero__roleword">Analyst</span>
+        </p>
+
+        <p class="hero__intro" data-reveal>
+          I build the layer between messy datasets and clear answers — cleaning,
+          modelling and visualising so that a number on a screen actually changes
+          what someone does next.
+        </p>
+
+        <dl class="hero__meta" data-reveal>
+          <div><dt>Focus</dt><dd>BI &amp; Dashboard Development</dd></div>
+          <div><dt>Method</dt><dd>Python · SQL · Power BI</dd></div>
+          <div><dt>Also into</dt><dd>LLMs &amp; Query Optimisation</dd></div>
+        </dl>
+
+        <div class="hero__actions" data-reveal>
+          <a class="btn btn--solid" href="#work">View selected work</a>
+          <a class="btn btn--ghost" href="#credentials">Download résumé</a>
+        </div>
+      </div>
+
+      <aside class="hero__aside">
+        <div class="portrait" data-reveal>
+          <div class="portrait__mask">
+            <img src="assets/portrait.jpg" alt="Portrait of Harsha Vardhini S" width="640" height="800" />
+          </div>
+          <span class="portrait__tag">Tirunelveli, India</span>
+        </div>
+
+        <ul class="rail" aria-label="Social links">
+          <li><a href="https://github.com/Harshavardhini255" target="_blank" rel="noopener">GitHub<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/harsha-vardhini-19373732a" target="_blank" rel="noopener">LinkedIn<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a></li>
+          <li><a href="mailto:harshabalan205@gmail.com">Email<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a></li>
+          <li><a href="tel:+916383370780">Phone<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a></li>
+        </ul>
+      </aside>
+
+    </div>
+
+    <div class="shell hero__stats">
+      <div class="stat" data-reveal>
+        <span class="stat__value" data-count="3" data-pad="2">03</span>
+        <span class="stat__label">Internships</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__value" data-count="7" data-pad="2">07</span>
+        <span class="stat__label">Projects</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__value" data-count="50000" data-suffix="K+">50K+</span>
+        <span class="stat__label">Records analysed</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__value" data-count="200" data-suffix="+">200+</span>
+        <span class="stat__label">Data issues resolved</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track" id="tickerTrack"></div>
+  </div>
+
+  <section class="work" id="work">
+    <div class="shell">
+      <header class="sechead" data-reveal>
+        <span class="sechead__num">01</span>
+        <h2 class="sechead__title">Selected Work</h2>
+      </header>
+
+      <div class="work__bar">
+        <ul class="filters" id="filters" role="group" aria-label="Filter projects">
+          <li><button type="button" class="is-on" data-filter="all">All <sup>7</sup></button></li>
+          <li><button type="button" data-filter="dashboard">Dashboard <sup>2</sup></button></li>
+          <li><button type="button" data-filter="analysis">Analysis <sup>3</sup></button></li>
+          <li><button type="button" data-filter="ai">AI <sup>1</sup></button></li>
+          <li><button type="button" data-filter="database">Database <sup>1</sup></button></li>
+        </ul>
+        <span class="work__hint">Seven builds, one obsession: the answer behind the chart.</span>
+      </div>
+
+      <p class="work__statement" data-reveal>Turning raw records into decisions that matter.</p>
+
+      <div class="grid" id="workGrid">
+
+        <article class="card" data-kind="dashboard" data-reveal>
+          <div class="card__visual card__visual--a"><span>HR</span></div>
+          <div class="card__head">
+            <span class="card__num">01</span>
+            <span class="card__year">2026</span>
+          </div>
+          <h3 class="card__title">HR Analytics Dashboard</h3>
+          <p class="card__cat">People Analytics</p>
+          <p class="card__desc">An end-to-end HR analytics application performing ETL and data cleaning on employee datasets to track attrition, performance and compensation KPIs — surfaced through interactive Power BI dashboards and a Streamlit interface.</p>
+          <ul class="tags"><li>ETL</li><li>Power BI</li><li>Streamlit</li></ul>
+          <div class="card__foot">
+            <span class="card__stack">Python · SQL · Power BI · Streamlit</span>
+            <a class="card__go" href="https://github.com/Harshavardhini255/hr-analytics-dashboard" target="_blank" rel="noopener" aria-label="Open HR Analytics Dashboard on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card" data-kind="analysis" data-reveal>
+          <div class="card__visual card__visual--b"><span>CH</span></div>
+          <div class="card__head">
+            <span class="card__num">02</span>
+            <span class="card__year">2026</span>
+          </div>
+          <h3 class="card__title">Customer Churn Analysis</h3>
+          <p class="card__cat">Predictive Analytics</p>
+          <p class="card__desc">Analysed customer data with SQL and Pandas to identify churn drivers and segment customers by risk, then built a Random Forest predictive model alongside Power BI visualisations to support retention strategy.</p>
+          <ul class="tags"><li>Random Forest</li><li>Segmentation</li><li>Power BI</li></ul>
+          <div class="card__foot">
+            <span class="card__stack">SQL · Python · Random Forest · Power BI</span>
+            <a class="card__go" href="https://github.com/Harshavardhini255/churn-analysis" target="_blank" rel="noopener" aria-label="Open Customer Churn Analysis on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card" data-kind="ai" data-reveal>
+          <div class="card__visual card__visual--c"><span>AI</span></div>
+          <div class="card__head">
+            <span class="card__num">03</span>
+            <span class="card__year">2025</span>
+          </div>
+          <h3 class="card__title">VOIS AICTE Major Project</h3>
+          <p class="card__cat">Conversational AI</p>
+          <p class="card__desc">An AI-driven conversational analytics solution that lets a user ask questions of structured data in natural language. NLP techniques process and interpret the dataset to generate automated business insights.</p>
+          <ul class="tags"><li>LLM</li><li>NLP</li><li>Prompt Engineering</li></ul>
+          <div class="card__foot">
+            <span class="card__stack">LLM · NLP · Prompt Engineering</span>
+            <a class="card__go" href="https://github.com/Harshavardhini255/VOIS_AICTE_Oct2025_MajorProject_Harshavardini_S" target="_blank" rel="noopener" aria-label="Open VOIS AICTE Major Project on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card" data-kind="dashboard" data-reveal>
+          <div class="card__visual card__visual--d"><span>BG</span></div>
+          <div class="card__head">
+            <span class="card__num">04</span>
+            <span class="card__year">2025</span>
+          </div>
+          <h3 class="card__title">Blinkit Grocery Sales Dashboard</h3>
+          <p class="card__cat">Retail Intelligence</p>
+          <p class="card__desc">An interactive dashboard analysing $1.20M in sales across 8,500+ SKUs with KPI cards, DAX measures and slicers for outlet type, size and item category — cutting manual reporting time by 40%.</p>
+          <ul class="tags"><li>DAX</li><li>Slicers</li><li>KPI</li></ul>
+          <div class="card__foot">
+            <span class="card__stack">Power BI · DAX · Data Modeling</span>
+            <span class="card__go card__go--off" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </div>
+        </article>
+
+        <article class="card" data-kind="analysis" data-reveal>
+          <div class="card__visual card__visual--e"><span>NF</span></div>
+          <div class="card__head">
+            <span class="card__num">05</span>
+            <span class="card__year">2025</span>
+          </div>
+          <h3 class="card__title">Netflix Content Data Analysis</h3>
+          <p class="card__cat">Exploratory Analysis</p>
+          <p class="card__desc">EDA and statistical modelling on a real-world dataset of 8,800+ titles to identify content trends, genre distributions and release patterns, with 10+ pipeline transformations feeding the conclusions.</p>
+          <ul class="tags"><li>EDA</li><li>Statistical Modelling</li><li>Viz</li></ul>
+          <div class="card__foot">
+            <span class="card__stack">Python · Pandas · Seaborn</span>
+            <span class="card__go card__go--off" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </div>
+        </article>
+
+        <article class="card" data-kind="analysis" data-reveal>
+          <div class="card__visual card__visual--f"><span>FK</span></div>
+          <div class="card__head">
+            <span class="card__num">06</span>
+            <span class="card__year">2025</span>
+          </div>
+          <h3 class="card__title">Flipkart Web Scraping &amp; Market Analysis</h3>
+          <p class="card__cat">Data Engineering</p>
+          <p class="card__desc">Extracted product and pricing data from Flipkart with Python-based scraping, applied ETL and data cleaning, then analysed pricing and category performance trends in Power BI.</p>
+          <ul class="tags"><li>Scraping</li><li>ETL</li><li>Pricing</li></ul>
+          <div class="card__foot">
+            <span class="card__stack">Python · Web Scraping · ETL</span>
+            <span class="card__go card__go--off" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </div>
+        </article>
+
+        <article class="card" data-kind="database" data-reveal>
+          <div class="card__visual card__visual--g"><span>DB</span></div>
+          <div class="card__head">
+            <span class="card__num">07</span>
+            <span class="card__year">2025</span>
+          </div>
+          <h3 class="card__title">Library Management System</h3>
+          <p class="card__cat">Relational Design</p>
+          <p class="card__desc">A normalised relational schema with DDL/DML operations and key constraints across 5,000+ records, plus query optimisation that cut execution time by 30% and improved retrieval efficiency by 35%.</p>
+          <ul class="tags"><li>Normalisation</li><li>Joins</li><li>Tuning</li></ul>
+          <div class="card__foot">
+            <span class="card__stack">SQL · MySQL</span>
+            <span class="card__go card__go--off" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="stack" id="stack">
+    <div class="shell">
+      <header class="sechead" data-reveal>
+        <span class="sechead__num">02</span>
+        <h2 class="sechead__title">Capability</h2>
+      </header>
+
+      <div class="acc" id="acc">
+        <div class="acc__item is-open" data-reveal>
+          <button class="acc__head" type="button" aria-expanded="true">
+            <span class="acc__n">01</span>
+            <span class="acc__title">Data Analysis &amp; Wrangling</span>
+            <span class="acc__icon" aria-hidden="true"><i></i><i></i></span>
+          </button>
+          <div class="acc__panel">
+            <p>Cleaning, reshaping and profiling messy tables into something a query can trust. Pandas, NumPy, Excel, ETL, A/B testing and statistical modelling.</p>
+          </div>
+        </div>
+
+        <div class="acc__item" data-reveal>
+          <button class="acc__head" type="button" aria-expanded="false">
+            <span class="acc__n">02</span>
+            <span class="acc__title">Dashboards &amp; Visualisation</span>
+            <span class="acc__icon" aria-hidden="true"><i></i><i></i></span>
+          </button>
+          <div class="acc__panel">
+            <p>Power BI models built around DAX measures, Power Query pipelines, KPI cards and slicers — plus Tableau, Streamlit, Matplotlib and Seaborn for exploration.</p>
+          </div>
+        </div>
+
+        <div class="acc__item" data-reveal>
+          <button class="acc__head" type="button" aria-expanded="false">
+            <span class="acc__n">03</span>
+            <span class="acc__title">SQL &amp; Data Engineering</span>
+            <span class="acc__icon" aria-hidden="true"><i></i><i></i></span>
+          </button>
+          <div class="acc__panel">
+            <p>Normalised relational schemas, joins, subqueries and query optimisation in MySQL, with BigQuery and pipeline design for repeatable reporting.</p>
+          </div>
+        </div>
+
+        <div class="acc__item" data-reveal>
+          <button class="acc__head" type="button" aria-expanded="false">
+            <span class="acc__n">04</span>
+            <span class="acc__title">AI &amp; LLM Analytics</span>
+            <span class="acc__icon" aria-hidden="true"><i></i><i></i></span>
+          </button>
+          <div class="acc__panel">
+            <p>Conversational analytics over structured datasets using Large Language Models, prompt engineering and NLP, alongside predictive models in scikit-learn.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="exp" id="experience">
+    <div class="shell">
+      <header class="sechead" data-reveal>
+        <span class="sechead__num">03</span>
+        <h2 class="sechead__title">Experience</h2>
+      </header>
+
+      <div class="tl">
+
+        <article class="tl__item" data-reveal>
+          <div class="tl__meta">
+            <span class="tl__period">Jun 2026 — Jul 2026</span>
+            <span class="tl__place">Chennai, India</span>
+          </div>
+          <div class="tl__body">
+            <h3>Data Analyst Intern <span>InGage Technologies Pvt Ltd</span></h3>
+            <p class="tl__hl">Energy analytics</p>
+            <ul>
+              <li>Collected and structured energy consumption data from an IoT-based setup (Wokwi, ThingSpeak) and performed data cleaning, preprocessing and exploratory data analysis using Python (Pandas, NumPy) in Google Colab to identify key KPIs and usage patterns.</li>
+              <li>Built interactive Power BI dashboards to visualise energy consumption trends and usage variations, supporting data-driven energy management insights.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl__item" data-reveal>
+          <div class="tl__meta">
+            <span class="tl__period">Sep 2025 — Oct 2025</span>
+            <span class="tl__place">Remote</span>
+          </div>
+          <div class="tl__body">
+            <h3>Data Analyst Intern <span>VOIS — AICTE Program</span></h3>
+            <p class="tl__hl">Conversational AI analytics</p>
+            <ul>
+              <li>Performed conversational data analysis using Large Language Models and prompt engineering to extract AI-driven business insights from structured datasets, delivering 15+ analytical reports to stakeholders.</li>
+              <li>Analysed datasets using Python (Pandas, NumPy) and SQL across a data pipeline of 50,000+ records; designed data cleaning workflows that improved data accuracy by 25%.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl__item" data-reveal>
+          <div class="tl__meta">
+            <span class="tl__period">Jul 2025 — Aug 2025</span>
+            <span class="tl__place">Tirunelveli, India</span>
+          </div>
+          <div class="tl__body">
+            <h3>Data Analyst Intern <span>IPCS Global Pvt Ltd</span></h3>
+            <p class="tl__hl">Business intelligence reporting</p>
+            <ul>
+              <li>Conducted end-to-end data cleaning, wrangling and exploratory data analysis on business datasets using Python, resolving 200+ data quality issues across multiple tables.</li>
+              <li>Built interactive Power BI dashboards and visualisations using Matplotlib and Seaborn, applying statistical methods and A/B testing to uncover sales trends and support a 20% improvement in business performance reporting.</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="shell about__grid">
+      <header class="sechead" data-reveal>
+        <span class="sechead__num">04</span>
+        <h2 class="sechead__title">Profile</h2>
+      </header>
+      <div class="about__lead" data-reveal>
+        <h3>A data analyst who cares about the answer, not just the chart.</h3>
+      </div>
+      <div class="about__copy" data-reveal>
+        <p>I am a Data Analyst with hands-on internship experience across energy analytics, conversational AI-driven analytics, and business intelligence reporting. I work primarily in Python, SQL, Power BI and Excel, with additional exposure to Tableau, BigQuery, Streamlit and LLM-based analytics.</p>
+        <p>My work starts where spreadsheets stop: cleaning inconsistent tables, reshaping pipelines, and building the measures that make a dashboard trustworthy. At VOIS I delivered 15+ analytical reports through conversational analysis with Large Language Models; at IPCS Global I resolved 200+ data quality issues across multiple tables; at InGage Technologies I turned raw IoT energy readings into interactive dashboards that made consumption patterns visible.</p>
+        <p>What I enjoy most is the translation step — sitting between a stakeholder's question and the query that answers it, then designing the visual that closes the loop.</p>
+      </div>
+      <dl class="about__facts" data-reveal>
+        <div><dt>Based in</dt><dd>Tirunelveli, Tamil Nadu</dd></div>
+        <div><dt>Education</dt><dd>B.E. ECE · CGPA 8.1</dd></div>
+        <div><dt>Graduating</dt><dd>2027</dd></div>
+        <div><dt>Languages</dt><dd>English, Tamil</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="cred" id="credentials">
+    <div class="shell">
+      <header class="sechead" data-reveal>
+        <span class="sechead__num">05</span>
+        <h2 class="sechead__title">Résumé</h2>
+      </header>
+
+      <div class="cred__grid">
+
+        <div class="cred__col" data-reveal>
+          <h3 class="cred__label">Education</h3>
+          <ul class="rows">
+            <li>
+              <p>B.E. — Electronics &amp; Communication Engineering</p>
+              <span>Government College of Engineering, Tirunelveli</span>
+              <em>2023 — 2027</em>
+              <em>CGPA 8.1 / 10.0</em>
+            </li>
+            <li>
+              <p>HSC — Higher Secondary Certificate</p>
+              <span>Mary Matha Matric Hr Sec School</span>
+              <em>March 2023</em>
+              <em>90%</em>
+            </li>
+            <li>
+              <p>SSLC — Secondary School Certificate</p>
+              <span>Mary Matha Matric Hr Sec School</span>
+              <em>March 2021</em>
+              <em>90%</em>
+            </li>
+          </ul>
+
+          <h3 class="cred__label cred__label--gap">Toolkit</h3>
+          <div class="toolkit">
+            <div>
+              <p>Languages</p>
+              <ul><li>Python</li><li>SQL</li><li>Java</li></ul>
+            </div>
+            <div>
+              <p>Analysis</p>
+              <ul><li>Pandas</li><li>NumPy</li><li>Data Cleaning</li><li>ETL</li><li>A/B Testing</li></ul>
+            </div>
+            <div>
+              <p>BI &amp; Viz</p>
+              <ul><li>Power BI (DAX)</li><li>Power Query</li><li>Tableau</li><li>Streamlit</li></ul>
+            </div>
+            <div>
+              <p>Database</p>
+              <ul><li>MySQL</li><li>Query Optimisation</li><li>Normalisation</li><li>BigQuery</li></ul>
+            </div>
+            <div>
+              <p>AI &amp; NLP</p>
+              <ul><li>LLMs</li><li>Prompt Engineering</li><li>NLP</li><li>Random Forest</li></ul>
+            </div>
+            <div>
+              <p>Tools</p>
+              <ul><li>Git</li><li>GitHub</li><li>Google Colab</li><li>Jupyter</li><li>VS Code</li></ul>
+            </div>
+          </div>
+
+          <h3 class="cred__label cred__label--gap">Co-curricular</h3>
+          <ul class="rows">
+            <li>
+              <p>National Service Scheme (NSS)</p>
+              <span>Government College of Engineering, Tirunelveli</span>
+              <em>Active Member</em>
+            </li>
+            <li>
+              <p>Symposium</p>
+              <span>Government College of Engineering, Tirunelveli</span>
+              <em>Coordinator</em>
+            </li>
+          </ul>
+        </div>
+
+        <div class="cred__col cred__col--side" data-reveal>
+          <h3 class="cred__label">Certifications</h3>
+          <ul class="certs">
+            <li>
+              <p>Google Cloud Data Analytics Certificate</p>
+              <span>Google</span>
+              <em>May 2026</em>
+            </li>
+            <li>
+              <p>Data Visualisation: Empowering Business with Effective Insights</p>
+              <span>Tata Group / Forage</span>
+              <em>April 2026</em>
+            </li>
+            <li>
+              <p>Python for Data Visualization</p>
+              <span>Udemy</span>
+              <em>July 2025</em>
+            </li>
+            <li>
+              <p>Python for Data Analysis</p>
+              <span>Udemy</span>
+              <em>June 2025</em>
+            </li>
+            <li>
+              <p>SQL for Data Analytics</p>
+              <span>Udemy</span>
+              <em>May 2025</em>
+            </li>
+            <li>
+              <p>MS Excel</p>
+              <span>Microsoft</span>
+              <em>April 2025</em>
+            </li>
+          </ul>
+
+          <h3 class="cred__label cred__label--gap">Interests</h3>
+          <ul class="pills">
+            <li>Data Analytics</li>
+            <li>Dashboard Development</li>
+            <li>AI-Driven Analysis</li>
+            <li>Statistical Modeling</li>
+            <li>Large Language Models</li>
+            <li>Query Optimization</li>
+            <li>Data Pipelines</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="shell contact__inner">
+      <header class="sechead sechead--light" data-reveal>
+        <span class="sechead__num">06</span>
+        <h2 class="sechead__title">Contact</h2>
+      </header>
+      <h3 class="contact__title" data-reveal>Have a dataset needing an answer?</h3>
+      <p class="contact__body" data-reveal>I am open to analyst and data science roles, and to freelance work involving dashboard development, data cleaning and BI reporting. If you have a question worth measuring, I would like to hear about it.</p>
+      <div class="contact__actions" data-reveal>
+        <a class="btn btn--solid btn--light" href="mailto:harshabalan205@gmail.com">Email me</a>
+        <a class="btn btn--ghost btn--onlight" href="https://www.linkedin.com/in/harsha-vardhini-19373732a" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn--ghost btn--onlight" href="https://github.com/Harshavardhini255" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div class="contact__meta" data-reveal>
+        <a href="mailto:harshabalan205@gmail.com">harshabalan205@gmail.com</a>
+        <a href="tel:+916383370780">+91 63833 70780</a>
+        <span>Tirunelveli, Tamil Nadu, India</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="shell foot__inner">
+    <p>© <span id="year">2026</span> Harsha Vardhini S</p>
+    <p>Built by hand — Python · SQL · Power BI</p>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
