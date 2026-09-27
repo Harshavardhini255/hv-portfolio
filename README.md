@@ -2,6 +2,8 @@
 
 A single-page, zero-dependency portfolio site. No build step, no framework, no npm install.
 
+**Live:** <https://harshavardhini255.github.io/hv-portfolio/>
+
 ## Run it
 
 Double-click `index.html`, or serve it locally (recommended, so scroll behaviour and fonts behave normally):
