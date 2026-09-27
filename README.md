@@ -16,6 +16,26 @@ Then open <http://localhost:8000>.
 
 ## Deploy
 
+Edit anything you like, then run one command. It stages, commits, pushes, waits for the GitHub Actions run, and prints the live URL:
+
+```powershell
+.\deploy.ps1                      # commit message: "Update portfolio"
+.\deploy.ps1 "Tweak hero copy"     # or supply your own
+```
+
+To see what will be published first:
+
+```bash
+git status
+git diff
+```
+
+Deploys run automatically on every push to `main` via `.github/workflows/pages.yml` — you can also trigger one by hand from the Actions tab. The workflow publishes only `index.html` and `assets/`, so this README and the workflow file stay out of the site.
+
+> Note: `deploy.ps1` is deliberately ASCII-only. Windows PowerShell 5.1 reads BOM-less `.ps1` files as ANSI, so a UTF-8 em-dash silently corrupts parsing and the script exits early. Keep the file ASCII, or add a UTF-8 BOM if you add non-ASCII text.
+
+## Deploy
+
 Static files only — push the folder to GitHub Pages, Netlify, Vercel, Cloudflare Pages or any static host. There is nothing to compile.
 
 ## Structure
@@ -25,6 +45,7 @@ index.html          all markup and copy
 assets/styles.css   design tokens, layout, responsive rules, animations
 assets/script.js    reveals, filters, accordion, counters, nav, mobile menu
 assets/portrait.jpg hero portrait
+deploy.ps1          one-command commit + push + deploy
 ```
 
 ## Editing content
